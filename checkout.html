@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- favicon  -->
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png"> 
+    <title>Titar's checkout</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg z-3 mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Titar's shop.html">
+                <img src="Titar's logo 2.png" alt="Logo" width="180" height="53" class="d-inline-block align-text-top">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active fs-4 mx-5" aria-current="page" href="Titar's shop.html">Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 mx-5" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 mx-5" href="about us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 mx-5" href="contact us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- checkout -->
+
+<div class="container" style="margin-top: 38vh;">
+    <main>
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="Titar's logo 2.png" width="200" height="67">
+        <h2 class="checkouth">Checkout form</h2>
+      </div>
+  
+        <div class="col-md-7 col-lg-8">
+          <h4 class="mb-4">Billing address</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+  
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="username" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text">@</span>
+                  <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                <div class="invalid-feedback">
+                    Your username is required.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                <div class="invalid-feedback">
+                  Please enter your shipping address.
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+              </div>
+  
+              <div class="col-md-5">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-select" id="country" required="">
+                  <option value="">Choose...</option>
+                  <option>Saudi Arabia</option>
+                  <option>Pakistan</option>
+                  <option>India</option>
+                  <option>United Kingdom</option>
+                  <option>Spain</option>
+                  <option>Germany</option>
+                  <option>Italy</option>
+                  <option>Australia</option>
+                  <option>China</option>
+                  <option>Japan</option>
+                  <option>Argentina</option>
+                  <option>South Africa</option>
+                  <option>Turkey</option>
+                  <option>South Korea</option>
+                  <option>United States</option>
+                  <option>Brazil</option>
+                  <option>Egypt</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required="">
+                  <option value="">Choose...</option>
+                  <option>California</option>
+                  <option>Texas</option>
+                  <option>New York</option>
+                  <option>Florida</option>
+                  <option>Alaska</option>
+                  <option>Hawaii</option>
+                  <option>Ohio</option>
+                  <option>Virginia</option>
+                  <option>Michigan</option>
+                  <option>New Jersey</option>
+                  <option>North Carolina</option>
+                  <option>Georgia</option>
+                  <option>Arizona</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+            </div>
+  
+            <hr class="my-4">
+  
+            <h4 class="mb-3">Payment</h4>
+  
+            <div class="my-3">
+              <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                <label class="form-check-label" for="credit">Credit card</label>
+              </div>
+              <div class="form-check">
+                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                <label class="form-check-label" for="debit">Debit card</label>
+              </div>
+              <div class="form-check">
+                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                <label class="form-check-label" for="paypal">PayPal</label>
+              </div>
+              <div class="form-check">
+                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                <label class="form-check-label" for="paypal">Payment on delivery</label>
+              </div>
+            </div>
+  
+            <div class="row gy-3">
+              <div class="col-md-6">
+                <label for="cc-name" class="form-label">Name on card</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                <small class="text-body-secondary">Full name as displayed on card</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <label for="cc-number" class="form-label">Credit card number</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Credit card number is required
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="cc-expiration" class="form-label">Expiration</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Expiration date required
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="cc-cvv" class="form-label">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Security code required
+                </div>
+              </div>
+            </div>
+  
+            <hr class="my-4">
+  
+            <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+
+
+
+      <!-- footer -->
+      <hr>
+      <div class="container" style="margin-top: 15vh; margin-bottom: 4vh;">
+        <footer class="">
+            <hr>
+          <ul class="nav border-bottom fs-4 mx-3 justify-content-center align-items-center">
+            <li class="nav-item mx-3"><a href="Titar's shop.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item mx-3"><a href="shop.html" class="nav-link px-2 text-body-secondary">Shop</a></li>
+            <li class="nav-item mx-3"><a href="about us.html" class="nav-link px-2 text-body-secondary">About Us</a></li>
+            <li class="nav-item mx-3"><a href="contact us.html" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+          </ul>
+          <p class="text-center text-body-secondary" style="font-size: medium;"><b>© 2023 LLC Private Company,</b></p>
+        <img src="phonelogo.webp" style="margin-top: 3vh; margin-left: 2vw;" height="25" alt=""><p style="
+        margin-top: 1vh; margin-left: 2vw; font-size: x-large; font-family: 'Kanit', sans-serif;">+17372825937</p>
+        <p style="margin-left: 2vw; font-family: 'Kanit', sans-serif; font-size: x-large;">salesattherateoftitarllc.com </p>
+          <br>
+        </footer>
+      </div>
+        <!-- bootstrap css -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
