@@ -1,30 +1,134 @@
-nav div ul li {
-    margin-left: 8vw;
-    font-size: larger;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Teko:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Manrope:wght@600&family=Teko:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Manrope:wght@600;800&family=Noto+Sans+Mahajani&family=Noto+Serif&family=Teko:wght@400;500&display=swap');
+
+
+html,
+body {
+  position: relative;
+  height: 90%;
 }
-.red h2{
-    margin-left: 14vw;
-    margin-top: 30vh;
-    margin-bottom: 5vh;
+
+body {
+  background: #ffffff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
-.red p{
-    margin-bottom: 20vh;
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 38vh!important;
 }
-.footer{
-    display: inline-block;
-    width: 40vw;
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-footer div ul li a{
-    text-decoration: none;
-    color: black;
-    margin: 3vh;
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-footer nav ul li {
-    display: inline-block;
+.text{
+    margin-left: 7vw;
 }
-footer nav{
-    display: inline-block;
+.text2{
+    margin-left: 0%;
 }
-p {
-    margin-top: 2vh;
+.price{
+    color: rgb(8, 146, 31);
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.pr{
+  color: rgb(8, 146, 31);
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Teko', sans-serif;
+}
+.productid{
+    font-family: 'Kanit', sans-serif;
+}
+.navbar{
+  margin: 0;
+  padding: 0;
+  background-color:#ffffff;
+  height: 14vh;
+  border-bottom: 2px solid rgb(231, 231, 231);
+}
+.logo{
+  margin-left: 1vw;
+  margin-bottom: 1vh;
+}
+.nav-link{
+  color: #47738d !important;
+  font-family: 'Kanit', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Teko', sans-serif;
+}
+.nav-link:hover{
+  color: rgb(5, 29, 252) !important;
+}
+.featurette-heading{
+  margin-left: 11vw;
+  margin-top: 25vh;
+  margin-bottom: 5vh;
+  font-family: 'Kanit', sans-serif;
+font-family: 'Manrope', sans-serif;
+}
+.featurette-heading2{
+  margin-left: 8vw;
+  margin-top: 25vh;
+  margin-bottom: 5vh;
+  font-family: 'Kanit', sans-serif;
+font-family: 'Manrope', sans-serif;
+}
+.featurette-para{
+  font-family: 'Kanit', sans-serif;
+font-family: 'Manrope', sans-serif;
+}
+.btn{
+  background-color: #1B4862;
+  color:white;
+  margin-top: 4vh;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Manrope', sans-serif;
+}
+.firsth1{
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Manrope', sans-serif;
+}
+.checkouth{
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Manrope', sans-serif;
+}
+.img{
+  margin-left: 16vw;
+  margin-right: 16vw;
+  margin-top: 17vh;
+}
+.col.col-xxl-3.col-xl-3.col-md-6.col-sm-3.col-12 {
+  margin-left: 756px;
+  margin-top: -318px;
+  }
+
+ul {
+  margin-left: 168px;
+}
+.img3{
+  margin-top: 30vh;
+}
+.card-text{
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
